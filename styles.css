@@ -52,25 +52,25 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Botones para elegir color */
+/* Botones con imagen */
 .color-picker {
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
 
-.color-picker button {
-    padding: 10px;
+.color-button {
+    width: 50px;
+    height: 50px;
     margin: 0 10px;
-    background-color: #ddd;
-    border: none;
     cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    transition: transform 0.2s ease;
 }
 
-.color-picker button:hover {
-    background-color: #bbb;
+.color-button:hover {
+    transform: scale(1.1); /* Efecto de agrandar al pasar el ratón */
 }
 
 #video {
