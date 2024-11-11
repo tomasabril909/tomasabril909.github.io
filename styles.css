@@ -4,9 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    transition: background-color 0.5s ease; /* Transición suave del color de fondo */
 }
 
-/* Encabezado */
 header {
     background-color: #333;
     color: #fff;
@@ -24,7 +24,7 @@ header .logo {
 }
 
 header .logo-img {
-    width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    width: 50px;
     height: auto;
     margin-right: 10px;
 }
@@ -52,7 +52,24 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Video */
+/* Botones para elegir color */
+.color-picker {
+    display: flex;
+    gap: 10px;
+}
+
+.color-picker button {
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.color-picker button:hover {
+    background-color: #bbb;
+}
+
 #video {
     padding: 20px;
     text-align: center;
@@ -70,7 +87,6 @@ nav ul li a {
     border-radius: 8px;
 }
 
-/* Blog */
 #blog {
     padding: 20px;
     background-color: #fff;
@@ -105,7 +121,6 @@ nav ul li a {
     text-decoration: underline;
 }
 
-/* Formulario de Contacto */
 #contacto {
     padding: 20px;
     background-color: #fff;
@@ -145,7 +160,6 @@ nav ul li a {
     background-color: #555;
 }
 
-/* Pie de Página */
 footer {
     background-color: #333;
     color: #fff;
