@@ -107,17 +107,15 @@ footer {
     right: 20px;
 }
 
-.color-switcher button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+.color-switcher img {
+    width: 60px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
 
-.color-switcher button:hover {
-    background-color: #555;
+.color-switcher img:hover {
+    transform: scale(1.1); /* Hace que la imagen crezca un poco cuando se pasa el mouse */
 }
 
 /* Estilos de cada esquema de color */
