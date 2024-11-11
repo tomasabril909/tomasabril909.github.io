@@ -55,15 +55,18 @@ nav ul li a {
 /* Botones para elegir color */
 .color-picker {
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
 }
 
 .color-picker button {
     padding: 10px;
+    margin: 0 10px;
     background-color: #ddd;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 16px;
 }
 
 .color-picker button:hover {
