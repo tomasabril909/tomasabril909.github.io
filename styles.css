@@ -12,6 +12,21 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo-img {
+    width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 10px;
 }
 
 header .logo h1 {
