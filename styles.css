@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* Color inicial de la página */
-    transition: background-color 0.5s ease;
+    color: #333; /* Color de texto por defecto */
+    transition: all 0.5s ease;
 }
 
 header {
@@ -117,4 +118,20 @@ footer {
 
 .color-switcher button:hover {
     background-color: #555;
+}
+
+/* Estilos de cada esquema de color */
+body.black-theme {
+    background-color: #000;
+    color: #fff;
+}
+
+body.pink-theme {
+    background-color: #ff66b2;
+    color: #fff;
+}
+
+body.white-theme {
+    background-color: #fff;
+    color: #333;
 }
