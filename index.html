@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Noticias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <h1>Noticias Hoy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Video -->
+    <section id="video">
+        <h2>Última Noticia</h2>
+        <!-- Video incrustado desde YouTube -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DnlhkbWq9BY" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Sección de Blog -->
+    <section id="blog">
+        <h2>Blog de Noticias</h2>
+        <article class="post">
+            <h3>Artículo 1: las gordas</h3>
+            <p>un dia en concreto un hijo de mil a puesto un mensaje contra las gordas :v</p>
+            <a href="#">Leer más</a>
+        </article>
+        <article class="post">
+            <h3>Artículo 2:  El Impacto de la Tecnología</h3>
+            <p>Hoy en día, la tecnología está transformando la manera en que vivimos y trabajamos...</p>
+            <a href="#">Leer más</a>
+        </article>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Noticias Hoy. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
