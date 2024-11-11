@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    transition: background-color 0.5s ease; /* Transición suave del color de fondo */
+    background-color: #f4f4f4; /* Color inicial de la página */
+    transition: background-color 0.5s ease;
 }
 
 header {
@@ -52,27 +52,6 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Botones con imagen */
-.color-picker {
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-
-.color-button {
-    width: 50px;
-    height: 50px;
-    margin: 0 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    border: 2px solid #333;
-    transition: transform 0.2s ease;
-}
-
-.color-button:hover {
-    transform: scale(1.1); /* Efecto de agrandar al pasar el ratón */
-}
-
 #video {
     padding: 20px;
     text-align: center;
@@ -106,61 +85,10 @@ nav ul li a {
     border-radius: 5px;
 }
 
-.post h3 {
-    margin-top: 0;
-}
-
-.post p {
-    margin: 10px 0;
-}
-
-.post a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.post a:hover {
-    text-decoration: underline;
-}
-
 #contacto {
     padding: 20px;
     background-color: #fff;
     text-align: center;
-}
-
-#contacto form {
-    max-width: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-}
-
-#contacto label {
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-#contacto input, #contacto textarea {
-    margin-bottom: 15px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 100%;
-}
-
-#contacto button {
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#contacto button:hover {
-    background-color: #555;
 }
 
 footer {
@@ -169,4 +97,24 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: 20px;
+}
+
+/* Botón de cambio de color */
+.color-switcher {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.color-switcher button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-switcher button:hover {
+    background-color: #555;
 }
